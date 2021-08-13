@@ -1,0 +1,36 @@
+.current-weather {
+    background: #72c5e0;
+    display: flex;
+    align-items: center;
+    border-radius: 7px;
+    margin-top: 28px;
+    margin-bottom: 10px;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.current-weather__content {
+    display: flex;
+    align-items: center;
+}
+
+.current-weather__temp {
+    margin: 0;
+    font-size: 42px;
+}
+
+.current-weather__description {
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.current-weather__icon {
+    font-size: 150px;
+}
+
+.current-weather__feels-like {
+    margin: 0;
+    font-size: 17px;
+    font-weight: bold;
+}

@@ -1,0 +1,52 @@
+.forecast {
+    background: #72c5e0;
+    display: block;
+    align-items: center;
+    border-radius: 7px;
+    margin: 20px;
+    margin-bottom: 50px;
+    padding: 20px;
+    justify-content: space-between;
+    max-width: -webkit-fill-available;
+}
+
+.forcast-title {
+    text-align: center;
+    margin-top: -3px;
+    margin-bottom: 10px;
+}
+
+.forecast-items {
+    display: flex;
+    overflow-x: scroll;
+    margin-bottom: 10px;
+}
+
+.forecast-item {
+    display: block;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    border-style: solid;
+    border-radius: 6px;
+    border-width: 3.5px;
+    border-color: white;
+}
+
+.forecast-item__hour {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.forecast-item__temperature {
+    margin: 0;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.forecast-item__description {
+    margin: 0;
+    margin-bottom: 15px;
+    font-size: 17px;
+    font-weight: bold;
+}

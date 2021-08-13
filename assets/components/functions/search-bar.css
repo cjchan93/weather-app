@@ -1,0 +1,26 @@
+.search-bar {
+    width: max-content;
+    width: 528px;
+    margin-top: 50px;
+}
+
+.search-bar__form {
+    display: flex;
+}
+
+.search-bar__button {
+    background: #0083ad;
+    color: white;
+    border: 1px solid #fff;
+    width: 120px;
+    border-left: 0px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 2px;
+    cursor: pointer;
+}
+
+.search-bar__input {
+    border: 1px solid #fff;
+    flex-grow: 1;
+    height: 35px;
+}
